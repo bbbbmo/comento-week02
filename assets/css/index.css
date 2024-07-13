@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "Galmuri11";
+  src: url("../fonts/Galmuri11.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: #c70415;
+  font-family: "Galmuri11", sans-serif;
+}
+
+header {
+  text-align: center;
+  height: 20%;
+}
+
+#logo {
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 90%;
+  height: 100%;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.item_img {
+}
+
+.item_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  background-color: blue;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.item_name {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: aliceblue;
+}
+
+.item_price {
+  margin-bottom: 5px;
+  background-color: aliceblue;
+}
+
+#item_btn1,
+#item_btn2,
+#item_btn3,
+#item_btn4,
+#item_btn5,
+#item_btn6 {
+  width: 80%;
+  height: 10%;
+  border-radius: 10px;
+  background-color: #0a0a23;
+  font-size: 1.5rem;
+}
+
+footer {
+  height: 40%;
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: space-between;
+}
+
+.outlet {
+  background-image: url("../images/cola2.png");
+  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 8px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+.cal_box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.input_output {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#input {
+  width: 100%;
+  height: 15%;
+  margin-bottom: 20px;
+  background-color: #0a0a23;
+  display: flex;
+  flex-direction: row;
+}
+
+#input_money {
+  width: 70%;
+  color: darkgreen;
+  background-color: #0a0a23;
+  border: 0;
+  font-family: "Galmuri11", sans-serif;
+}
+
+#submit {
+  width: 30%;
+  font-family: "Galmuri11", sans-serif;
+}
+
+.output {
+  width: 100%;
+  height: 20%;
+  background-color: gray;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+#output_money {
+  margin-left: 5%;
+}
+
+#lever {
+  height: 40%;
+  width: 40%;
+  background-color: gray;
+  border-radius: 50%;
+}

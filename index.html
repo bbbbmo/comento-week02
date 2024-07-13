@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <title>자판기</title>
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="assets/images/cola.png" />
+    </header>
+    <div class="wrapper">
+      <div class="menu">
+        <div class="item">
+          <div class="item_img"><img src="assets/images/pepsi.jpg" /></div>
+          <div class="item_info">
+            <div class="item_name">펩시</div>
+            <div class="item_price">1800원</div>
+          </div>
+          <button class="item_btn" id="item_btn1">🔘</button>
+        </div>
+        <div class="item">
+          <div class="item_img"><img src="assets/images/cider.jpg" /></div>
+          <div class="item_info">
+            <div class="item_name">칠성 사이다</div>
+            <div class="item_price">1800원</div>
+          </div>
+          <button class="item_btn" id="item_btn2">🔘</button>
+        </div>
+        <div class="item">
+          <div class="item_img"><img src="assets/images/choco.jpg" /></div>
+          <div class="item_info">
+            <div class="item_name">초코에몽</div>
+            <div class="item_price">2000원</div>
+          </div>
+          <button class="item_btn" id="item_btn3">🔘</button>
+        </div>
+        <div class="item">
+          <div class="item_img"><img src="assets/images/tee.jpg" /></div>
+          <div class="item_info">
+            <div class="item_name">헛개차</div>
+            <div class="item_price">1500원</div>
+          </div>
+          <button class="item_btn" id="item_btn4">🔘</button>
+        </div>
+        <div class="item">
+          <div class="item_img"><img src="assets/images/juice.jpg" /></div>
+          <div class="item_info">
+            <div class="item_name">오렌지 주스</div>
+            <div class="item_price">1000원</div>
+          </div>
+          <button class="item_btn" id="item_btn5">🔘</button>
+        </div>
+        <div class="item">
+          <div class="item_img"><img src="assets/images/coffee.jpg" /></div>
+          <div class="item_info">
+            <div class="item_name">레쓰비</div>
+            <div class="item_price">1000원</div>
+          </div>
+          <button class="item_btn" id="item_btn6">🔘</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="outlet"></div>
+      <div class="cal_box">
+        <div class="input_output">
+          <form id="input">
+            <input
+              id="input_money"
+              type="number"
+              placeholder="금액을 입력하세요."
+              step="100"
+            />
+            <input id="submit" type="submit" />
+          </form>
+          <div class="output">
+            <div id="output_money">잔돈 :</div>
+          </div>
+        </div>
+        <button id="lever"></button>
+      </div>
+    </footer>
+    <script src="/assets/js/input.js"></script>
+    <!-- <script src="/assets/js/button.js"></script> -->
+  </body>
+</html>
